@@ -1,0 +1,31 @@
+.videoBox {
+  padding: 2vh;
+  background-color: white;
+  margin: 1vh;
+  height: 25vh;
+  border-radius: 5px;
+  transition: transform 1s;
+}
+.videoBox:hover{
+  transform: scale(1.1);
+}
+.videoPreview{
+  width: 20vh;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.videoIcon{
+  font-size: 5em;
+}
+.text{
+  font-size: 0.7em;
+  color: #999999;
+  text-align: left;
+}
+.videoBoxBelowContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

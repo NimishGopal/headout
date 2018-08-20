@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Sidebar from './Sidebar/Sidebar.js';
+import Video from './Video/Video.js';
 
 class App extends Component {
   render() {
@@ -16,7 +17,33 @@ class App extends Component {
             icon5="settings"
           />
         </div>
-        <div>
+        <div className="Header">
+          <h1>Headout Assignment</h1>
+        </div>
+        <div className="videoContainer">
+          <Video />
+          <Video />
+          <Video />
+          <Video />
+          <Video />
+          <Video />
+          <Video />
+          <Video />
+          <Video />
+          <Video />
+          <Video />
+          <Video />
+          <Video />
+          <Video />
+          <Video />
+          <Video />
+          <Video />
+          <Video />
+          <Video />
+          <Video />
+          <Video />
+          <Video />
+          <Video />
         </div>
         <div className="bar2">
           <Sidebar

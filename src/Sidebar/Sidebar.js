@@ -5,29 +5,29 @@ class Sidebar extends Component {
     return (
       <div className="background">
         <div className="iconBox">
-          <i class="material-icons icon">
+          <a href="#"><i class="material-icons icon">
           {this.props.icon1}
-          </i>
+          </i></a>
         </div>
         <div className="iconBox">
-          <i class="material-icons icon">
+          <a href="#"><i class="material-icons icon">
           {this.props.icon2}
-          </i>
+          </i></a>
         </div>
         <div className="iconBox">
-          <i class="material-icons icon">
+          <a href="#"><i class="material-icons icon">
           {this.props.icon3}
-          </i>
+          </i></a>
         </div>
         <div className="iconBox">
-          <i class="material-icons icon">
+          <a href="#"><i class="material-icons icon">
           {this.props.icon4}
-          </i>
+          </i></a>
         </div>
         <div className="iconBox">
-          <i class="material-icons icon">
+          <a href="#"><i class="material-icons icon">
           {this.props.icon5}
-          </i>
+          </i></a>
         </div>
       </div>
     );
