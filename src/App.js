@@ -1,18 +1,32 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Sidebar from './Sidebar/Sidebar.js';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div className="bar1">
+          <Sidebar
+            icon1="youtube_searched_for"
+            icon2="get_app"
+            icon3="video_library"
+            icon4="favorite"
+            icon5="settings"
+          />
+        </div>
+        <div>
+        </div>
+        <div className="bar2">
+          <Sidebar
+            icon1="account_circle"
+            icon2="history"
+            icon3="home"
+            icon4="mail_outline"
+            icon5="notifications"
+          />
+        </div>
       </div>
     );
   }
